@@ -14,3 +14,8 @@ caesar.o: caesar.c kcryptx.h
 test: test.c
 	$(CC) -Wall -std=c17 -o $@ $< -L. -lkcryptx
 
+.PHONY: clean
+
+clean:
+	rm -f *.o libkcryptx.so.* test
+
