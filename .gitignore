@@ -1,0 +1,3 @@
+src/test
+src/*.o
+src/libkcryptx.so.*.*
